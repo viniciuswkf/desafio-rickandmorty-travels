@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app:
+    image: viniciuswkf/rickandmorty_viniciuswkf_api:latest
+    command: sh -c "sleep 10 && crystal /app/sam.cr db:setup && /app/app"    
+    ports:
+      - 3000:3000
+    depends_on:
+      - database
+
+  database:
+    ports:
+      - 5434:5432
+    image: postgres:13.11
+    environment:
+      - POSTGRES_DB=rickandmorty_api
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+volumes:
+
+  postgres_data:

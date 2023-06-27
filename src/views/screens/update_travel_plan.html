@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editar Plano de Viagem | Desafio Milenio Capital</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+  integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="flex flex-col">
+    <div class="header-container">
+      <div class="flex items-center gap-2">
+        <button onclick="history.back()" class="hover:zinc-950 rounded-full bg-black px-2 py-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left">
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
+
+      <div>
+        <span class="rounded-md bg-black p-1 text-xl md:text-3xl">Editar plano de viagem<font id="travel-id"></font>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="relative mb-10 flex flex-col">
+    <div class="main-container ">
+      <div id="results"></div>
+
+      <div class="flex flex-col gap-5">
+        <div class="flex items-start justify-between">
+          <div class="flex flex-col">
+            <span class="text-lg">Selecione os lugares</span>
+          </div>
+        </div>
+
+        <input type="hidden" id="selected-travel-stop-ids" value="[]">
+
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-4 " id="travel-stops-location-list">
+          <div id="location-2" class="location-item ">
+            <span class="font-bold">... </span>
+            <span>...</span>
+            <span>...</span>
+            <div class="flex flex-grow">
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <span class="popularity-item bad"></span>
+              <span class="item-selected-icon"></span>
+            </div>
+
+            <div style="display: none" id="location-XXX" class="location-item location-selected">
+              <span class="font-bold">... </span>
+              <span>...</span>
+              <span class="most-popular"></span>
+              <span>...</span>
+              <div class="flex flex-grow">
+              </div>
+              <div class="flex justify-between items-center mt-5">
+                <span class="popularity-item bad">...</span>
+                <span class="item-selected-icon"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed right-5 bottom-5 flex flex-col gap-2">
+        <small class="text-sm rounded-md shadow-lg p-2 bg-white "><span id="count-selected-locations" class="font-bold text-lg">0</span> selecionado(s)</small>
+        <button id="update-travel-button" class="flex shadow-lg flex-col w-full items-center  bg-black p-3 rounded-md text-white transition hover:bg-zinc-950">
+          <span class=" font-bold uppercase flex w-full justify-center items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Salvar viagem</span>
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="/js/alerts.js"></script>
+  <script type="text/javascript" src="/js/update_travel_plan.js"></script>
+</body>
+
+</html>

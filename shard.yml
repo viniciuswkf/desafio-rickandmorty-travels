@@ -1,0 +1,32 @@
+name: rickandmorty-travels-api
+version: 0.1.0
+
+authors:
+  - viniciuswkf <viniciusludv@gmail.com>
+
+targets:
+  rickandmorty-travels-api:
+    main: src/app.cr
+
+
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: "0.18.0"
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.13.0"
+  pg:
+    github: will/crystal-pg
+  sam:
+    github: imdrasil/sam.cr
+    version: 0.4.2
+  dotenv:
+    github: drum445/dotenv
+
+crystal: 1.8.2
+
+license: MIT

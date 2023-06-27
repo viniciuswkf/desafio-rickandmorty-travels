@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentação da API | Desafio Milenio Capital</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <div class="flex flex-col">
+    <div class="header-container">
+      <div class="flex gap-2 items-center">
+        <button onclick="window.location.href='/'" class="hover:zinc-950 rounded-full bg-black px-2 py-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+
+
+        <div>
+          <span class="rounded-md bg-black p-1 text-xl md:text-3xl ">Documentação da API<font id="travel-id"></font></span>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative mb-10 flex-col">
+      <div class="main-container px-25">
+        <div class="flex flex-col gap-16 pb-10 divide-y-3">
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Ver planos</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-yellow-300 p-2">GET</div>
+              <div class="text-zinc-700">/travel_plans</div>
+            </div>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">[{"id": 1, "travel_stops": [1,2,3]}, {"id": 2, "travel_stops": [3,2,1]}]</span>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Ver planos expandidos ou otimizados</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-yellow-300 p-2">GET</div>
+              <div class="text-zinc-700 text-xs md:text-md">/travel_plans?<b>optimize</b>=true&<b>expand</b>=true</div>
+            </div>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">[{"id": 1, "travel_stops": [{"id": 2, name: "Earth 6", "dimension": "unknown", ...}]}, ...]</span>
+            <span class="text-sm text-zinc-500"><b class="font-mono">optimize:</b> Ordena as paradas de cada plano de viagem de acordo com a popularidade de cada localização de forma crescente.</span>
+            <span class="text-sm text-zinc-500"><b class="font-mono">expand:</b> Mostra os detalhes (nome, tipo e dimensão) de cada parada dos plano de viagens</span>
+
+          </div>
+
+
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Criar plano</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-green-300 p-2">POST</div>
+              <div class="text-zinc-700">/travel_plans</div>
+            </div>
+            <span class="text-zinc-600">Exemplo de requisição</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-zinc-800">{"travel_stops": [1,2,3]}</span>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">{"id": 1, "travel_stops": [1,2,3]}</span>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Ver plano </span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-yellow-300 p-2">GET</div>
+              <div class="text-zinc-700">/travel_plans/:id</div>
+            </div>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">{"id": 1, "travel_stops": [1,2,3]}</span>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Ver plano expandido ou otimizado</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-yellow-300 p-2">GET</div>
+              <div class="text-zinc-700 text-xs md:text-md">/travel_plans/<b >:id</b>?<b>optimize</b>=true&<b>expand</b>=true</div>
+            </div>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">{"id": 1, "travel_stops": [{"id": 2, name: "Earth 6", "dimension": "unknown", ...}]}</span>
+            <span class="text-sm text-zinc-500"><b class="font-mono">optimize:</b> Retorna as paradas (visitas) do plano de viagem <span class="font-mono">:id</span> de acordo com a popularidade de cada localização de forma crescente (do menos popular para o mais popular).</span>
+            <span class="text-sm text-zinc-500"><b class="font-mono">expand:</b> Mostra os detalhes (nome, tipo e dimensão) de cada parada dos plano de viagens</span>
+
+          </div>
+
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Editar plano</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-orange-300 p-2">PUT</div>
+              <div class="text-zinc-700">/travel_plans/:id</div>
+            </div>
+            <span class="text-zinc-600">Exemplo de requisição</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-zinc-800">{"travel_stops": [3,2,1]}</span>
+
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">{"id": 1, "travel_stops": [3,2,1]}</span>
+          </div>
+
+
+          <div class="flex flex-col gap-2">
+            <span class="text-lg font-bold">Deletar plano</span>
+            <div class="flex items-center gap-2 rounded-md bg-zinc-200 font-mono">
+              <div class="rounded-l-md bg-red-300 p-2">DELETE</div>
+              <div class="text-zinc-700">/travel_plans/:id</div>
+            </div>
+            <span class="text-zinc-600">Resposta de sucesso</span>
+            <span class="rounded-md bg-zinc-100 p-2 font-mono text-green-700">Status Code: 200 OK</span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

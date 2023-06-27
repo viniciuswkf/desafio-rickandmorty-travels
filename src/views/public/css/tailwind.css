@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply rounded-md bg-black p-3 text-white hover:bg-zinc-950;
+}
+
+.input {
+  @apply rounded-md border-2 border-zinc-200 bg-white  p-3 text-black;
+}
+
+.error {
+  @apply rounded-md bg-red-400 p-2 px-4 text-white;
+}
+.success {
+  @apply rounded-md bg-green-400 p-2 px-4 text-zinc-800;
+}
+.most-popular {
+  @apply rounded-md   gap-1 px-2  text-white mb-5 mb-2  bg-orange-400 text-xs;
+}
+
+code {
+  @apply rounded-md bg-zinc-200 p-2 font-mono text-red-500;
+}
+
+.main-container {
+  @apply md:pb-20 pb-20 absolute top-[-20px] flex w-full flex-col gap-5 rounded-t-2xl bg-white p-5 md:px-20 md:py-10;
+}
+
+.header-container {
+  @apply flex flex-col grayscale-[70%] gap-2 pb-10 bg-[url("/img/header.jpeg")] bg-cover bg-left  p-5 md:p-20 md:pb-20 font-bold text-white ;
+}
+
+.travels-item {
+  @apply flex cursor-pointer items-center justify-between rounded-md shadow-lg p-5 transition-colors hover:bg-zinc-100;
+}
+
+.travels-item-desc {
+  @apply text-sm text-zinc-500;
+}
+
+.select-plan-type {
+  @apply cursor-pointer rounded-lg shadow-md px-2 py-0 hover:bg-zinc-100;
+}
+
+.selected {
+  @apply shadow-lg bg-zinc-100;
+}
+
+.success-badge {
+  @apply mt-2 rounded-md bg-green-300 px-2 text-sm font-bold text-green-700;
+}
+
+.separator {
+  @apply h-full w-[2.9px] rounded-md bg-zinc-200;
+}
+.separator-box {
+  @apply ml-10 flex h-10;
+}
+
+.travel-stops-item {
+  @apply flex flex-col rounded-md shadow-lg p-2;
+}
+
+.not-found-travel-plans-box {
+  @apply w-full justify-center flex flex-col items-center justify-center gap-5;
+}
+
+.mobile-create-account-button {
+  @apply md:hidden;
+}
+
+.location-item {
+  @apply shadow-md flex cursor-pointer flex-col gap-0 rounded-md  p-5 transition;
+}
+.location-item.location-selected  .item-selected-icon{
+  @apply flex h-[10px] w-[10px] bg-zinc-400  rounded-full;
+
+}
+
+.location-selected {
+  @apply border-zinc-100 bg-zinc-50 p-5 border-2 border-zinc-200;
+}
+
+.popularity-item {
+  @apply flex h-[25px] w-[25px]  flex-row items-center justify-center  rounded-full text-xs text-white;
+}
+
+.popularity-text {
+@apply text-sm opacity-[0.5];
+}
+
+.popularity-item.high {
+  @apply bg-green-400 text-black;
+}
+
+.popularity-item.bad {
+  @apply bg-yellow-400 text-black;
+}
+
+.alert-box {
+  @apply py-2 px-5 text-black font-normal fixed top-5 right-5 max-w-[60%] bg-zinc-100 shadow-xl min-w-[120px] rounded-md;
+}
+
+.alert-box.error {
+  @apply bg-red-500 text-white;
+}
+
+.alert-box {
+    animation: fadeInAnimation ease 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

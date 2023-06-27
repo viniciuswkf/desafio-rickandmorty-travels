@@ -1,0 +1,877 @@
+[{
+  "id": "121",
+  "name": "Rick's Consciousness",
+  "type": "Consciousness",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "122",
+  "name": "Avian Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "123",
+  "name": "Normal Size Bug Dimension",
+  "type": "Dimension",
+  "dimension": "",
+  "residents_episodes_count": 2
+},{
+  "id": "124",
+  "name": "Slartivart",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "125",
+  "name": "Rick and Two Crows Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "126",
+  "name": "Rick's Memories",
+  "type": "Memory",
+  "dimension": "",
+  "residents_episodes_count": 21
+},{
+  "id": "101",
+  "name": "Glorzo Asteroid",
+  "type": "Asteroid",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 8
+},{
+  "id": "102",
+  "name": "Alien Acid Plant",
+  "type": "Acid Plant",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "103",
+  "name": "Merged Universe",
+  "type": "Dimension",
+  "dimension": "Merged Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "104",
+  "name": "Near-Duplicate Reality",
+  "type": "Reality",
+  "dimension": "Unknown dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "105",
+  "name": "NX-5 Planet Remover",
+  "type": "Death Star",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 7
+},{
+  "id": "106",
+  "name": "Gaia",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "107",
+  "name": "Defiance's Ship",
+  "type": "Spacecraft",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "108",
+  "name": "Defiance's Base",
+  "type": "Base",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "109",
+  "name": "The Ocean",
+  "type": "Liquid",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "110",
+  "name": "Narnia Dimension",
+  "type": "Dimension",
+  "dimension": "Fantasy Dimension",
+  "residents_episodes_count": 11
+},{
+  "id": "111",
+  "name": "Elemental Rings",
+  "type": "Elemental Rings",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "112",
+  "name": "Morglutz",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "113",
+  "name": "Ferkus 9",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "114",
+  "name": "Morty",
+  "type": "Human",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "115",
+  "name": "Space",
+  "type": "Space",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "116",
+  "name": "Hell",
+  "type": "Hell",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 7
+},{
+  "id": "117",
+  "name": "Z. Q. P. D.",
+  "type": "Police Department",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "118",
+  "name": "Space Tahoe",
+  "type": "",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "119",
+  "name": "France",
+  "type": "Country",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "120",
+  "name": "Birdperson's Consciousness",
+  "type": "Consciousness",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "81",
+  "name": "Earth (Fascist Teddy Bear Dimension)",
+  "type": "Planet",
+  "dimension": "Fascist Teddy Bear Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "82",
+  "name": "Earth (Wasp Dimension)",
+  "type": "Planet",
+  "dimension": "Wasp Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "83",
+  "name": "Monogatron Mothership",
+  "type": "Space station",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "84",
+  "name": "Gorgon Quadrant",
+  "type": "Quadrant",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "85",
+  "name": "Midland Quasar",
+  "type": "Quasar",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "86",
+  "name": "Mount Space Everest",
+  "type": "Mount",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "87",
+  "name": "Globaflyn",
+  "type": "Liquid",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "88",
+  "name": "Heist-Con",
+  "type": "Convention",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 10
+},{
+  "id": "89",
+  "name": "Heistotron Base",
+  "type": "Space station",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "90",
+  "name": "Mount Olympus",
+  "type": "Mount",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "91",
+  "name": "Plitzville Montana",
+  "type": "Woods",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "92",
+  "name": "Earth (Tusk Dimension)",
+  "type": "Planet",
+  "dimension": "Tusk Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "93",
+  "name": "Gramuflack",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "94",
+  "name": "Draygon",
+  "type": "Planet",
+  "dimension": "Magic Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "95",
+  "name": "New Improved Galactic Federation Quarters",
+  "type": "Space station",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "96",
+  "name": "Story Train",
+  "type": "Diegesis",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 27
+},{
+  "id": "97",
+  "name": "Non-Diegetic Alternative Reality",
+  "type": "Non-Diegetic Alternative Reality",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "98",
+  "name": "Tickets Please Guy Nightmare",
+  "type": "Nightmare",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 7
+},{
+  "id": "99",
+  "name": "Morty\u2019s Story",
+  "type": "Diegesis",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "100",
+  "name": "Ricks\u2019s Story",
+  "type": "Diegesis",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "61",
+  "name": "Earth (D716-C)",
+  "type": "Planet",
+  "dimension": "Dimension D716-C",
+  "residents_episodes_count": 0
+},{
+  "id": "62",
+  "name": "Earth (J-22)",
+  "type": "Planet",
+  "dimension": "Dimension J-22",
+  "residents_episodes_count": 0
+},{
+  "id": "63",
+  "name": "Froopyland",
+  "type": "Artificially generated world",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "64",
+  "name": "Detoxifier",
+  "type": "Machine",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "65",
+  "name": "Trunk World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "66",
+  "name": "Plopstar",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "67",
+  "name": "Blips and Chitz",
+  "type": "Arcade",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "68",
+  "name": "Girvonesk",
+  "type": "unknown",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "69",
+  "name": "Earth (C-35)",
+  "type": "Planet",
+  "dimension": "Dimension C-35",
+  "residents_episodes_count": 0
+},{
+  "id": "70",
+  "name": "Snuffles' Dream",
+  "type": "Dream",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 2
+},{
+  "id": "71",
+  "name": "Earth (Pizza Dimension)",
+  "type": "Planet",
+  "dimension": "Pizza Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "72",
+  "name": "Earth (Phone Dimension)",
+  "type": "Planet",
+  "dimension": "Phone Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "73",
+  "name": "Greasy Grandma World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "74",
+  "name": "Earth (Chair Dimension)",
+  "type": "Planet",
+  "dimension": "Chair Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "75",
+  "name": "\u00c1rboles Mentirosos",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "76",
+  "name": "Alien Day Spa",
+  "type": "Spa",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "77",
+  "name": "Earth (Fascist Dimension)",
+  "type": "Planet",
+  "dimension": "Fascist Dimension",
+  "residents_episodes_count": 10
+},{
+  "id": "78",
+  "name": "Snake Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 16
+},{
+  "id": "79",
+  "name": "Forbodulon Prime",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "80",
+  "name": "Earth (Fascist Shrimp Dimension)",
+  "type": "Planet",
+  "dimension": "Fascist Shrimp Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "41",
+  "name": "Hamster in Butt World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 2
+},{
+  "id": "42",
+  "name": "Earth (Giant Telepathic Spiders Dimension)",
+  "type": "Planet",
+  "dimension": "Giant Telepathic Spiders Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "43",
+  "name": "Alphabetrium",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "44",
+  "name": "Jerryboree",
+  "type": "Daycare",
+  "dimension": "unknown",
+  "residents_episodes_count": 8
+},{
+  "id": "45",
+  "name": "Krootabulon",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "46",
+  "name": "Zigerion's Base",
+  "type": "Space station",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 4
+},{
+  "id": "47",
+  "name": "Pluto",
+  "type": "Dwarf planet (Celestial Dwarf)",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "48",
+  "name": "Fantasy World",
+  "type": "Planet",
+  "dimension": "Fantasy Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "49",
+  "name": "Zeep Xanflorp's Miniverse",
+  "type": "Miniverse",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "50",
+  "name": "Kyle's Teenyverse",
+  "type": "Teenyverse",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "51",
+  "name": "Larva Alien's Planet",
+  "type": "Planet",
+  "dimension": "Unknown dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "52",
+  "name": "Earth (K-22)",
+  "type": "Planet",
+  "dimension": "Dimension K-22",
+  "residents_episodes_count": 0
+},{
+  "id": "53",
+  "name": "Mr. Meeseeks Box",
+  "type": "Box",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "54",
+  "name": "Vindicator's Base",
+  "type": "Spacecraft",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "55",
+  "name": "Pawn Shop Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "56",
+  "name": "Mega Gargantuan Kingdom",
+  "type": "Microverse",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 1
+},{
+  "id": "57",
+  "name": "Gear World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 5
+},{
+  "id": "58",
+  "name": "Earth (D-99)",
+  "type": "Planet",
+  "dimension": "Dimension D-99",
+  "residents_episodes_count": 0
+},{
+  "id": "59",
+  "name": "Earth (D716)",
+  "type": "Planet",
+  "dimension": "Dimension D716",
+  "residents_episodes_count": 0
+},{
+  "id": "60",
+  "name": "Earth (D716-B)",
+  "type": "Planet",
+  "dimension": "Dimension D716-B",
+  "residents_episodes_count": 0
+},{
+  "id": "21",
+  "name": "Testicle Monster Dimension",
+  "type": "Dimension",
+  "dimension": "Testicle Monster Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "22",
+  "name": "Signus 5 Expanse",
+  "type": "unknown",
+  "dimension": "Cromulon Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "23",
+  "name": "Earth (C-500A)",
+  "type": "Planet",
+  "dimension": "Dimension C-500A",
+  "residents_episodes_count": 5
+},{
+  "id": "24",
+  "name": "Rick's Battery Microverse",
+  "type": "Microverse",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 2
+},{
+  "id": "25",
+  "name": "The Menagerie",
+  "type": "Menagerie",
+  "dimension": "unknown",
+  "residents_episodes_count": 3
+},{
+  "id": "26",
+  "name": "Earth (K-83)",
+  "type": "Planet",
+  "dimension": "Dimension K-83",
+  "residents_episodes_count": 0
+},{
+  "id": "27",
+  "name": "Hideout Planet",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 2
+},{
+  "id": "28",
+  "name": "Unity's Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 6
+},{
+  "id": "29",
+  "name": "Dorian 5",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "30",
+  "name": "Earth (Unknown dimension)",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 4
+},{
+  "id": "31",
+  "name": "Earth (J19\u03b67)",
+  "type": "Planet",
+  "dimension": "Dimension J19\u03b67",
+  "residents_episodes_count": 0
+},{
+  "id": "32",
+  "name": "Roy: A Life Well Lived",
+  "type": "Game",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "33",
+  "name": "Eric Stoltz Mask Earth",
+  "type": "Planet",
+  "dimension": "Eric Stoltz Mask Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "34",
+  "name": "Earth (Evil Rick's Target Dimension)",
+  "type": "Planet",
+  "dimension": "Evil Rick's Target Dimension",
+  "residents_episodes_count": 5
+},{
+  "id": "35",
+  "name": "Planet Squanch",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 24
+},{
+  "id": "36",
+  "name": "Glaagablaaga",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "37",
+  "name": "Resort Planet",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 5
+},{
+  "id": "38",
+  "name": "Interdimensional Customs",
+  "type": "Customs",
+  "dimension": "unknown",
+  "residents_episodes_count": 2
+},{
+  "id": "39",
+  "name": "Galactic Federation Prison",
+  "type": "Space station",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "40",
+  "name": "Gazorpazorp",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 3
+},{
+  "id": "1",
+  "name": "Earth (C-137)",
+  "type": "Planet",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 61
+},{
+  "id": "2",
+  "name": "Abadango",
+  "type": "Cluster",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "3",
+  "name": "Citadel of Ricks",
+  "type": "Space station",
+  "dimension": "unknown",
+  "residents_episodes_count": 219
+},{
+  "id": "4",
+  "name": "Worldender's lair",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 16
+},{
+  "id": "5",
+  "name": "Anatomy Park",
+  "type": "Microverse",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 11
+},{
+  "id": "6",
+  "name": "Interdimensional Cable",
+  "type": "TV",
+  "dimension": "unknown",
+  "residents_episodes_count": 75
+},{
+  "id": "7",
+  "name": "Immortality Field Resort",
+  "type": "Resort",
+  "dimension": "unknown",
+  "residents_episodes_count": 7
+},{
+  "id": "8",
+  "name": "Post-Apocalyptic Earth",
+  "type": "Planet",
+  "dimension": "Post-Apocalyptic Dimension",
+  "residents_episodes_count": 10
+},{
+  "id": "9",
+  "name": "Purge Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "10",
+  "name": "Venzenulon 7",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "11",
+  "name": "Bepis 9",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 4
+},{
+  "id": "12",
+  "name": "Cronenberg Earth",
+  "type": "Planet",
+  "dimension": "Cronenberg Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "13",
+  "name": "Nuptia 4",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 15
+},{
+  "id": "14",
+  "name": "Giant's Town",
+  "type": "Fantasy town",
+  "dimension": "Fantasy Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "15",
+  "name": "Bird World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "16",
+  "name": "St. Gloopy Noops Hospital",
+  "type": "Space station",
+  "dimension": "unknown",
+  "residents_episodes_count": 11
+},{
+  "id": "17",
+  "name": "Earth (5-126)",
+  "type": "Planet",
+  "dimension": "Dimension 5-126",
+  "residents_episodes_count": 0
+},{
+  "id": "18",
+  "name": "Mr. Goldenfold's dream",
+  "type": "Dream",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 9
+},{
+  "id": "19",
+  "name": "Gromflom Prime",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "20",
+  "name": "Earth (Replacement Dimension)",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 426
+},{
+  "id": "1",
+  "name": "Earth (C-137)",
+  "type": "Planet",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 61
+},{
+  "id": "2",
+  "name": "Abadango",
+  "type": "Cluster",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "3",
+  "name": "Citadel of Ricks",
+  "type": "Space station",
+  "dimension": "unknown",
+  "residents_episodes_count": 219
+},{
+  "id": "4",
+  "name": "Worldender's lair",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 16
+},{
+  "id": "5",
+  "name": "Anatomy Park",
+  "type": "Microverse",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 11
+},{
+  "id": "6",
+  "name": "Interdimensional Cable",
+  "type": "TV",
+  "dimension": "unknown",
+  "residents_episodes_count": 75
+},{
+  "id": "7",
+  "name": "Immortality Field Resort",
+  "type": "Resort",
+  "dimension": "unknown",
+  "residents_episodes_count": 7
+},{
+  "id": "8",
+  "name": "Post-Apocalyptic Earth",
+  "type": "Planet",
+  "dimension": "Post-Apocalyptic Dimension",
+  "residents_episodes_count": 10
+},{
+  "id": "9",
+  "name": "Purge Planet",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 4
+},{
+  "id": "10",
+  "name": "Venzenulon 7",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 1
+},{
+  "id": "11",
+  "name": "Bepis 9",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 4
+},{
+  "id": "12",
+  "name": "Cronenberg Earth",
+  "type": "Planet",
+  "dimension": "Cronenberg Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "13",
+  "name": "Nuptia 4",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 15
+},{
+  "id": "14",
+  "name": "Giant's Town",
+  "type": "Fantasy town",
+  "dimension": "Fantasy Dimension",
+  "residents_episodes_count": 3
+},{
+  "id": "15",
+  "name": "Bird World",
+  "type": "Planet",
+  "dimension": "unknown",
+  "residents_episodes_count": 0
+},{
+  "id": "16",
+  "name": "St. Gloopy Noops Hospital",
+  "type": "Space station",
+  "dimension": "unknown",
+  "residents_episodes_count": 11
+},{
+  "id": "17",
+  "name": "Earth (5-126)",
+  "type": "Planet",
+  "dimension": "Dimension 5-126",
+  "residents_episodes_count": 0
+},{
+  "id": "18",
+  "name": "Mr. Goldenfold's dream",
+  "type": "Dream",
+  "dimension": "Dimension C-137",
+  "residents_episodes_count": 9
+},{
+  "id": "19",
+  "name": "Gromflom Prime",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 0
+},{
+  "id": "20",
+  "name": "Earth (Replacement Dimension)",
+  "type": "Planet",
+  "dimension": "Replacement Dimension",
+  "residents_episodes_count": 426
+}]
